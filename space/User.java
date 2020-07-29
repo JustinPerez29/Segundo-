@@ -1,14 +1,14 @@
 package space;
 public class User {
- private int id;
- 
- private double salario;
- 
- private String apellido;
- 
- private String nombre;
- 
- public User(int id, String nombre, String apellido, double salario) {
+private int id;
+
+private double salario;	
+
+private String apellido;
+	
+private String nombre;
+
+public User(int id, String nombre, String apellido, double salario) {
 	this.id = id;
 	this.nombre = nombre;
 	this.apellido = apellido;
@@ -46,6 +46,7 @@ public double getSalario() {
 public void setSalario(double salario) {
 	this.salario = salario;
 	}
+
 @Override
 public String toString() {
 	return " id: " + id + ", nombre: " + nombre + ", apellido: " + apellido + ", salario: " + salario + "";
